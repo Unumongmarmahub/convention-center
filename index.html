@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,76 @@
   <title>Convention Center</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 </head>
+
 <body>
-  
+  <header>
+    <!-- start nav section  -->
+    <section>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid p-3">
+          <div class="d-flex">
+            <a class="navbar-brand" href="#">Abacus Convention Center</a>
+          </div>
+          <div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Contuct</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Subscribe</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- end nav section  -->
+    <!-- start first banner section  -->
+    <section>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner.png" class="img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block p-3">
+              <h5 class="fs-1">The perfect venue for you</h5>
+              <h5 class="fs-1">next event</h5>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                dolor do amet sint. Velit officia consequat duis enim velit .</p>
+              <button type="button" class="btn btn-light" data-bs-toggle="button">Toggle button</button>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+    <!-- end first banner section  -->
+
+  </header>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
